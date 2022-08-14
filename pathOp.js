@@ -24,6 +24,6 @@ console.log(path.extname(__filename));
 // }
 
 let pathObj = path.parse(__filename);
-console.log(pathObj);
+console.log("path parse", pathObj);
 
 console.log(path.join(__dirname, "test", "hello.html"));
